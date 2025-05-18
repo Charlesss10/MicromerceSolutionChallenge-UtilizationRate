@@ -18,6 +18,7 @@ type CostsByMonth = {
   _applicationId: string;
   periods?: Period[];
   costsByMonth?: { costs: string; month: string }[];
+  potentialEarningsByMonth?: { costs: string; month: string }[];
   _updatedDate: string;
   _definitionId: string;
   _createdDate: string;
@@ -131,8 +132,8 @@ export type TableDataType = {
   person: string;
   past12Months: string;
   y2d: string;
-  may: string;
   june: string;
   july: string;
+  august: string;
   netEarningsPrevMonth: string;
 };
